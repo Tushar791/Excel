@@ -48,7 +48,6 @@ public class ReadExcel{
 			}
 		}
 		file.close();
-		wb.close();
 		return list;
 	}
 	
